@@ -1,0 +1,45 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "extends": ["airbnb", "prettier", "prettier/react"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": ["node_modules", "src/"]
+      }
+    }
+  },
+  "plugins": ["react", "prettier", "react-hooks"],
+  "rules": {
+    "prettier/prettier": "error",
+    "react/button-has-type": "warn",
+    "react/jsx-filename-extension": ["warn", { "extensions": ["jsx", "js"] }],
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "off",
+    "import/prefer-default-export": "off",
+    "import/no-dynamic-require": "warn",
+    "no-shadow": "off",
+    "no-unused-vars": "warn",
+    "no-use-before-define": "off",
+    "no-console": ["warn", { "allow": ["tron"] }],
+    "no-param-reassign": "off",
+    "global-require": "off"
+  }
+}
