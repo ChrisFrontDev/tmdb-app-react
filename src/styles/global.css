@@ -1,0 +1,31 @@
+* {
+  box-shadow: none !important;
+}
+
+body {
+  background: #1e1e1e;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+.swiper-slide {
+  width: auto;
+  max-width: 340px;
+}
+
+.swiper-slide img {
+  width: 100%;
+  max-width: 60vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  max-height: 190px;
+}
+
+.p-dialog .p-dialog-header,
+.p-dialog .p-dialog-content {
+  background: transparent;
+}
+
+.p-dialog .p-dialog-header .p-dialog-title {
+  font-size: 2rem;
+}

@@ -1,11 +1,15 @@
-
-### User Stories: 
+### User Stories:
 
 - User can search for movies and TV shows on TMDb
-- User can the see upcoming and trending movies. Data updates weekly 
-- User can click on a movie and a modal should pop up. It should display the title, release date, overview, and runtime.  
-- The webpage adapts to any screen size. 
+- User can the see upcoming and trending movies. Data updates weekly
+- User can click on a movie and a modal should pop up. It should display the title, release date, overview, and runtime.
+- The webpage adapts to any screen size.
 
+- Busca de filmes por título, juntando-os independente do gênero.
+- "Banner" com os próximos filmes a lançar (/trending).
+- Lista ou seções com os filmes mais populares (/discover), separados por
+  gênero(/genres).Clicando no filme, mostre também seu detalhes (eg: sumário, duração,
+  título original, etc).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
